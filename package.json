@@ -1,0 +1,27 @@
+{
+  "name": "prueba-bower",
+  "description": "Proyecto de prueba para usar Bower",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Wiesel",
+    "email": "jonathanwiesel@gmail.com",
+    "url": "http://github.com/jonathanwiesel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeheroco/prueba-bower.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "express": "4.0.0",
+    "jade": "1.3.1"
+  }
+}
